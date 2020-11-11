@@ -1,0 +1,157 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.imglogo{
+    border-radius: 20px;
+}
+header{
+    margin: 0;
+    background-image: url(https://th.bing.com/th/id/OIP.gePzzzbUsjul6XNHVquO1AHaEL?pid=Api&rs=1);
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-size: 100%;
+    color: rgb(233, 233, 42);
+}
+ #header {
+    position: relative;
+    margin-top:0;
+    width:100%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+ul, ol {
+    list-style:none;
+}
+
+.nav > li {
+    float:left;
+}
+
+.nav li a {
+    background-image: url(https://th.bing.com/th/id/OIP.gePzzzbUsjul6XNHVquO1AHaEL?pid=Api&rs=1);
+    color: white;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+}
+
+.nav li a:hover {
+    transition: 0.5s ;
+    background:rgb(194, 39, 39);
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+
+.nav li ul li {
+    position:relative;
+}
+
+.nav li ul li ul {
+    right:-140px;
+    top:0px;
+}
+.section1titulo{
+    color:  rgb(206, 206, 45);
+    font-size: 40px;
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+}
+#section1{
+    border: solid 2px black;
+    border-radius: 15px;
+    padding: 1rem;
+    margin-top: 100px;
+    background: rgb(172, 30, 30);
+    width: 600px;
+}
+.img{
+    padding: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 5rem;
+}
+.article1{
+    color: white;
+    font-size: 20px;
+   text-align: initial;
+   width: 580px;
+}
+.frase{
+    font-size: 30px;
+    color: white;
+}
+.frasepies{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+}
+#section2{
+    border: solid 2px black;
+    text-align: initial;
+    padding: 1rem;
+    background: rgb(172, 30, 30);
+    margin-top:2rem;
+    display: inline-block;
+    width: 550px;
+}
+.article2{
+    color: white;
+    font-size: 20px;
+   display: block;
+   text-align: initial;
+   width: 480px;
+}
+body{
+    background-image: url(https://i.pinimg.com/originals/bd/0c/2b/bd0c2ba798ca3e882fa1892c782be948.jpg);
+}
+#fondo{
+    background: black;
+}
+footer{
+    position: fixed;
+    background-position: center;
+    background: black;
+    color: white;
+    position: static;
+    margin: 0;
+    margin-top: 1rem;
+    width: 600px;
+}
+.imgfooter{
+    margin: 1rem;
+}
+.footer{
+    width: 580px;
+    padding-top: 1rem;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.catalogo{
+    margin-top: 2rem;
+    width: 600px;
+    background: rgb(197, 11, 11);
+    color: white;
+}
+.document{
+    width:600px;
+    height: 700px;
+}
+@media screen and (min-width:300px) and (max-width:1100px) {
+    body{font-size:0.8em;
+   }
+}
